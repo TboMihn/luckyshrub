@@ -78,6 +78,13 @@ main {
 	object-position: center;
 }
 
+.carousel-caption {
+	bottom: 0px;
+	top: 230px;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 10px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
 	background-color: rgba(210, 209, 209, 0.5);
@@ -106,6 +113,11 @@ main section article .article_title {
 	font-weight: bold;
 	margin-bottom: 10px;
 	color: #26877f;
+}
+
+.my_card_button {
+	text-align: center;
+	margin-top: 15px;
 }
 
 footer {
