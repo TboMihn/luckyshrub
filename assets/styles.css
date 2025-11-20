@@ -130,6 +130,26 @@ main section article .article_title {
 	margin-top: 15px;
 }
 
+.about_section {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 70vw;
+}
+
+.about_main_content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.about_main_content_right img {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	width: 400px;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
@@ -152,5 +172,22 @@ footer div {
 	}
 	.navbar {
 		width: 100vw;
+	}
+
+	.about_section {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.about_main_content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.about_main_content_right img {
+		width: 70vw;
 	}
 }
