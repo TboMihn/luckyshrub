@@ -143,3 +143,14 @@ footer {
 footer div {
 	margin: 0 15px;
 } /*# sourceMappingURL=styles.css.map */
+
+@media (max-width: 600px) {
+	.nav_container {
+		display: flex;
+		justify-content: space-between;
+		width: 100vw;
+	}
+	.navbar {
+		width: 100vw;
+	}
+}
