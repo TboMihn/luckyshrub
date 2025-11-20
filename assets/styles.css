@@ -10,49 +10,59 @@ body {
 }
 
 header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: #26877f;
 	color: #ede7f1;
-	padding: 10px 0;
+	padding: 0;
 	text-align: center;
 }
 
 #header_logo {
-	width: 100px;
-	height: auto;
+	width: auto;
+	height: 320px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 20px;
 }
 
-nav {
-	padding: 5px;
-	background-color: black;
+.nav_container {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
 }
 
-nav ul {
-	list-style-type: none;
-	text-align: center;
+.nav_container,
+.container-fluid {
+	background-color: #f8f9fa;
 }
 
-nav ul li {
-	display: inline;
-	margin: 0 15px;
+#navbar_logo {
+	height: 50px;
+	width: auto;
+	display: block;
+	padding: 0 15px;
 }
 
-nav ul li a {
-	text-decoration: none;
-	color: #ede7f1;
-	font-weight: bold;
+#navbarNavDropdown ul li a {
+	color: #26877f;
 }
 
-nav ul li a:hover {
-	text-decoration: none;
+#navbarNavDropdown ul li a:hover,
+.active {
 	color: #b53434;
-	font-weight: bold;
+	background-color: rgba(38, 135, 127, 0.1);
 }
 
-nav ul ul {
-	display: hidden;
+#navbar_logo_link {
+	padding: 5px 0;
+}
+
+#navbar_logo_link:hover {
+	background-color: rgba(38, 135, 127, 0.1);
 }
 
 main {
