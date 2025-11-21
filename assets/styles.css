@@ -150,6 +150,25 @@ main section article .article_title {
 	width: 400px;
 }
 
+.contact_form_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_form_section_container {
+	width: 40vw;
+}
+
+.form_textarea_div {
+	height: 250px;
+}
+
+.form-floating #contact_message {
+	height: 250px;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
@@ -189,5 +208,15 @@ footer div {
 
 	.about_main_content_right img {
 		width: 70vw;
+	}
+
+	.contact_form_section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact_form_section_container {
+		width: 90vw;
 	}
 }

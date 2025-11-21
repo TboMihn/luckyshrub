@@ -102,51 +102,73 @@
 		</header>
 
 		<main>
-			<section class="carousel_row">Contact Main Content</section>
-			<section class="row">
-				<div class="card_row">
-					<div class="col-sm-3">
-						<article class="card card_padding">
-							<!-- <img src="..." class="card-img-top" alt="..." /> -->
-							<div class="card-body">
-								<div class="article_title">Our Services</div>
-								<ul>
-									<li>Shrub Pruning</li>
-									<li>Landscaping Design</li>
-									<li>Garden Maintenance</li>
-									<li>Seasonal Planting</li>
-								</ul>
-							</div>
-						</article>
-					</div>
-					<div class="col-sm-3">
-						<article class="card card_padding">
-							<!-- <img src="..." class="card-img-top" alt="..." /> -->
-							<div class="card-body">
-								<div class="article_title">Why Choose Us?</div>
-								<p>
-									At Lucky Shrub, we pride ourselves on our expertise,
-									reliability, and customer satisfaction. Our team of
-									professionals is dedicated to making your garden look its
-									best.
-								</p>
-							</div>
-						</article>
-					</div>
-					<div class="col-sm-3">
-						<article class="card card_padding">
-							<!-- <img src="..." class="card-img-top" alt="..." /> -->
-							<div class="card-body">
-								<div class="article_title">Contact Us</div>
-								<p>
-									Have questions or want to schedule a service? Reach out to us!
-								</p>
-								<div class="my_card_button">
-									<a href="#" class="btn btn-primary">Email Us</a>
-								</div>
-							</div>
-						</article>
-					</div>
+			<section class="contact_form_section">
+				<div class="contact_form_section_container">
+					<form action="submit" class="contact_us" id="lucky_contact_form">
+						<h2>Contact Us</h2>
+						<p>All fields are required.</p>
+						<div class="form-floating mb-3">
+							<input
+								type="text"
+								class="form-control"
+								id="customer_name"
+								placeholder="First Name"
+								required
+							/>
+							<label for="customer_name">First Name</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input
+								type="text"
+								class="form-control"
+								id="customer_last_name"
+								placeholder="Last Name"
+								required
+							/>
+							<label for="customer_last_name">Last Name</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input
+								type="email"
+								class="form-control"
+								id="customer_email"
+								placeholder="name@example.com"
+								required
+							/>
+							<label for="floatingInput">Email Address</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input
+								type="email"
+								class="form-control"
+								id="verify_customer_email"
+								placeholder="name@example.com"
+								required
+							/>
+							<label for="verify_customer_email">Verify Email Address</label>
+						</div>
+						<div class="form-floating mb-3 mt-3 form_textarea_div">
+							<label for="contact_message" class="form-label"
+								>Example textarea</label
+							>
+							<textarea
+								class="form-control my_custom_textarea"
+								id="contact_message"
+								rows="15"
+								required
+							></textarea>
+						</div>
+						<div class="col-12">
+							<button
+								class="btn btn-primary"
+								id="contact_submit_button"
+								type="submit"
+								disabled
+							>
+								Submit form
+							</button>
+						</div>
+					</form>
 				</div>
 			</section>
 		</main>
