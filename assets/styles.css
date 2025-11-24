@@ -178,6 +178,16 @@ main section article .article_title {
 
 /* plant Section */
 
+.flower_container {
+	display: grid;
+	justify-items: center;
+}
+
+.plant_content_heading {
+	background-color: #ede7f1;
+	width: 55vw;
+	border: none;
+}
 /* Maintenance section */
 .card-group {
 	width: 70vw;
@@ -257,5 +267,16 @@ footer div {
 
 	.card-group {
 		margin: auto;
+	}
+
+	.flower_container > div.row {
+		display: grid;
+		justify-items: center;
+	}
+
+	.plant_content_heading {
+		background-color: #ede7f1;
+		width: 80vw;
+		border: none;
 	}
 }
