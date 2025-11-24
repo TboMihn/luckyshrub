@@ -176,6 +176,13 @@ main section article .article_title {
 	margin: 50px 0;
 }
 
+/* plant Section */
+
+/* Maintenance section */
+.card-group {
+	width: 70vw;
+	margin: 0 15vw;
+}
 /* Contact page */
 .contact_form_section {
 	display: flex;
@@ -246,5 +253,9 @@ footer div {
 
 	.contact_form_section_container {
 		width: 90vw;
+	}
+
+	.card-group {
+		margin: auto;
 	}
 }
