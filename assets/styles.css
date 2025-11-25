@@ -210,6 +210,10 @@ main section article .article_title {
 	width: 70vw;
 	margin: 0 15vw;
 }
+
+.maint_card_images {
+	height: 249px;
+}
 /* Contact page */
 .contact_form_section {
 	display: flex;
@@ -312,5 +316,9 @@ footer div {
 		background-color: #ede7f1;
 		width: 80vw;
 		border: none;
+	}
+
+	.maint_card_images {
+		height: 50%;
 	}
 }
