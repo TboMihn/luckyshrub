@@ -58,6 +58,13 @@ header {
 	background-color: rgba(38, 135, 127, 0.1);
 }
 
+.dropdown-item.active,
+.dropdown-item:active {
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(38, 135, 127, 0.1);
+}
+
 #navbar_logo_link {
 	padding: 5px 0;
 }
@@ -112,6 +119,15 @@ main {
 .carousel-control-next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
 }
+#index_service_row {
+	justify-content: center;
+	grid-column-gap: 15px;
+}
+
+#index_service_row > .col-md-2 > .card {
+	width: 18rem;
+	height: 15rem;
+}
 
 main section .card_row {
 	display: flex;
@@ -130,8 +146,9 @@ main section article .article_title {
 }
 
 .my_card_button {
+	position: relative;
+	bottom: 10px;
 	text-align: center;
-	margin-top: 15px;
 }
 
 /* About page */
@@ -236,6 +253,23 @@ footer div {
 	}
 	.navbar {
 		width: 100vw;
+	}
+
+	.carousel-inner {
+		position: relative;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.carousel-caption {
+		display: block;
+		top: 40px;
+		background-color: rgba(0, 0, 0, 0.25);
+		padding: 10px;
+	}
+
+	#index_service_row > .col-md-2 > .card {
+		width: auto;
 	}
 
 	.about_section {
