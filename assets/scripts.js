@@ -17,3 +17,22 @@ function my_submit() {
 	// const fullname = `${firstName.value} ${lastName.value}`;
 	// console.log(fullname);
 }
+
+let button_to_top = document.getElementById("top");
+
+window.onscroll = function () {
+	scrollFunction();
+};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		button_to_top.style.display = "block";
+	} else {
+		button_to_top.style.display = "none";
+	}
+}
+
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}

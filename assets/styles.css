@@ -205,6 +205,18 @@ main section article .article_title {
 	width: 55vw;
 	border: none;
 }
+
+#top {
+	display: none;
+	color: #26877f;
+	border-color: #26877f;
+	z-index: 99;
+}
+#top:hover {
+	background-color: #26877f;
+	color: #ede7f1;
+}
+
 /* Maintenance section */
 .card-group {
 	width: 70vw;
